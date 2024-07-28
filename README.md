@@ -71,4 +71,34 @@ University of New South Wales
 - asama <https://x.com/m_asama>
 - cafenero <https://x.com/cafenero_777>
 
+## イベント一覧(2024/07/28時点)
+
+- Interop Tokyo 2025
+- NANOG 92
+- USENIX NSDI '25
+- IETF 121 Dublin
+- IETF 122 Bangkok
+- IETF 120 Vancouver
+- JANOG 56
+- JANOG 55
+- ENOG 83
+- ENOG 84
+- OSDI '24
+- USENIX ATC '24
+- DPDK Summit APAC 2024
+- DPDK Summit 2024
+- ACM SIGCOMM 2024
+- IEEE INFOCOM 2025
+- AI INFRA @SCALE 2024
+- HotI 2024
+- Hot Chips 2024
+- NETWORKING @SCALE 2024
+- LPC 2024
+- 2024 OCP Global Summit
+- 2024 SONiC Workshop
+- KubeCon + CloudNativeCon North America
+- Netdev 0x18
+- 2024 P4 Workshop\, San Francisco
+- ONIC軽井沢（Open NetworkIng Conference Japan）
+- MPLS Japan 2024\, 東京大学武田ホール
 
