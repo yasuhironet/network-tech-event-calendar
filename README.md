@@ -17,11 +17,18 @@
 ## 主なイベントリスト
 
 - 学会系
-  - USENIX ATC, NSDI
-  - ACM SIGCOMM
-  - IEEE INFOCOM
+  - USENIX: ATC, NSDI, FAST
+  - ACM/IEEE: SIGCOMM, INFOCOM, HotI, Hot Chips
 - NOG系
   - NANOG, JANOG, ENOG
+- 国内著名イベント
+  - Interop Tokyo
+- 標準化系
+  - IETF
+- 国際開発系
+  - OCP, KubeCon, DPDK
+- 国内研究系
+  - ITRC, ADVNET, MPLS Japan, ONIC
 
 ## 作成者
 
@@ -29,4 +36,5 @@
 - ebiken <https://x.com/ebiken>
 - asama <https://x.com/m_asama>
 - cafenero <https://x.com/cafenero_777>
+
 
