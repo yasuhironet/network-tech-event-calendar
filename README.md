@@ -30,6 +30,34 @@
 - 国内研究系
   - ITRC, ADVNET, MPLS Japan, ONIC
 
+## ルール
+
+- GoogleカレンダーかMac Calendar.appの利用を想定
+- 終日イベントとして保存
+- 主催が名称を定義していれば(できるだけ)それ
+- 既存の保存済みイベントに(できるだけ)合わせる
+  - 例) ENOG 83 v.s. ENOG83
+- 迷ったら全部大文字
+  - 例) NANOG v.s. nanog
+- DESCRIPTION: Googleカレンダーのテキストエリア、Calendar.appのメモ。
+```
+イベント名
+
+国・都市
+開催期間
+
+場所(venue)
+```
+例)
+```
+ACM SIGCOMM 2024
+
+Sydney, Australia,
+August 4 - 8, 2024.
+
+University of New South Wales
+```
+
 ## 作成者
 
 - yasu <https://x.com/yasuhironet>
