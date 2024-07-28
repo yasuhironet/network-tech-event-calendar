@@ -18,7 +18,7 @@
 
 - 学会系
   - USENIX: ATC, NSDI, FAST
-  - ACM/IEEE: SIGCOMM, INFOCOM, HotI, Hot Chips
+  - ACM/IEEE: SIGCOMM, INFOCOM, HotI, Hot Chips, AINTEC
 - NOG系
   - NANOG, JANOG, ENOG
 - 国内著名イベント
