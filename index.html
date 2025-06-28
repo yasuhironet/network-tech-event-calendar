@@ -161,6 +161,10 @@
             .calendar-frame {
                 height: 400px;
             }
+            
+            .event-list {
+                columns: 1;
+            }
         }
     </style>
 </head>
@@ -220,6 +224,23 @@
         </section>
 
         <section class="section">
+            <h2>⚠️ 課題・注意点</h2>
+            <ul style="margin-left: 20px; margin-top: 15px;">
+                <li>情報の正確性を保証しません。</li>
+                <li>これのせいで遅刻しても何の責任も持ちません。</li>
+                <li>時差には対応できていない場合があります。</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>📋 方針</h2>
+            <ul style="margin-left: 20px; margin-top: 15px;">
+                <li>著名なネットワーク関連イベント、トップカンファレンスを網羅し、技術者にリマインダするためのものです。</li>
+                <li>基本的にイベントの追加・削除の依頼は受け付けません。個人的なセレクションです。</li>
+            </ul>
+        </section>
+
+        <section class="section">
             <h2>🎯 対象イベント</h2>
             <p>以下のような分野のイベントを掲載しています：</p>
             <ul style="margin-left: 20px; margin-top: 15px;">
@@ -232,6 +253,121 @@
                 <li>ネットワーク仮想化（NFV）</li>
                 <li>5G・6G通信技術</li>
                 <li>その他関連する技術分野</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>📋 主なイベントリスト</h2>
+            <div style="margin-left: 20px; margin-top: 15px;">
+                <h4>学会系</h4>
+                <ul style="margin-left: 20px;">
+                    <li>USENIX: ATC, NSDI, FAST</li>
+                    <li>ACM/IEEE: SIGCOMM, INFOCOM, HotI, Hot Chips, AINTEC</li>
+                </ul>
+                
+                <h4>NOG系</h4>
+                <ul style="margin-left: 20px;">
+                    <li>NANOG, JANOG, ENOG</li>
+                </ul>
+                
+                <h4>国内著名イベント</h4>
+                <ul style="margin-left: 20px;">
+                    <li>Interop Tokyo</li>
+                </ul>
+                
+                <h4>標準化系</h4>
+                <ul style="margin-left: 20px;">
+                    <li>IETF</li>
+                </ul>
+                
+                <h4>国際開発系</h4>
+                <ul style="margin-left: 20px;">
+                    <li>OCP, KubeCon, DPDK</li>
+                </ul>
+                
+                <h4>国内研究系</h4>
+                <ul style="margin-left: 20px;">
+                    <li>ITRC, ADVNET, MPLS Japan, ONIC</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>📏 ルール</h2>
+            <ul style="margin-left: 20px; margin-top: 15px;">
+                <li>GoogleカレンダーかMac Calendar.appの利用を想定</li>
+                <li>終日イベントとして保存</li>
+                <li>主催が名称を定義していれば(できるだけ)それ</li>
+                <li>既存の保存済みイベントに(できるだけ)合わせる
+                    <ul style="margin-left: 20px;">
+                        <li>例) ENOG 83 v.s. ENOG83</li>
+                    </ul>
+                </li>
+                <li>迷ったら全部大文字
+                    <ul style="margin-left: 20px;">
+                        <li>例) NANOG v.s. nanog</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h4 style="margin-top: 20px;">DESCRIPTIONの書き方</h4>
+            <p>(Googleカレンダーのテキストエリア、Calendar.appのメモ。)</p>
+            <div style="background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; padding: 15px; margin: 10px 0; font-family: monospace;">
+イベント名<br><br>
+国・都市<br>
+開催期間<br><br>
+場所(venue)
+            </div>
+            <p>例：</p>
+            <div style="background: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; padding: 15px; margin: 10px 0; font-family: monospace;">
+ACM SIGCOMM 2024<br><br>
+Sydney, Australia,<br>
+August 4 - 8, 2024.<br><br>
+University of New South Wales
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>👥 作成者</h2>
+            <ul style="margin-left: 20px; margin-top: 15px;">
+                <li>yasu <a href="https://x.com/yasuhironet" target="_blank">@yasuhironet</a></li>
+                <li>ebiken <a href="https://x.com/ebiken" target="_blank">@ebiken</a></li>
+                <li>asama <a href="https://x.com/m_asama" target="_blank">@m_asama</a></li>
+                <li>cafenero <a href="https://x.com/cafenero_777" target="_blank">@cafenero_777</a></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>📅 イベント一覧（2024/07/28時点）</h2>
+            <ul class="event-list" style="margin-left: 20px; margin-top: 15px; columns: 2; column-gap: 30px;">
+                <li>Interop Tokyo 2025</li>
+                <li>NANOG 92</li>
+                <li>USENIX NSDI '25</li>
+                <li>IETF 121 Dublin</li>
+                <li>IETF 122 Bangkok</li>
+                <li>IETF 120 Vancouver</li>
+                <li>JANOG 56</li>
+                <li>JANOG 55</li>
+                <li>ENOG 83</li>
+                <li>ENOG 84</li>
+                <li>OSDI '24</li>
+                <li>USENIX ATC '24</li>
+                <li>DPDK Summit APAC 2024</li>
+                <li>DPDK Summit 2024</li>
+                <li>ACM SIGCOMM 2024</li>
+                <li>IEEE INFOCOM 2025</li>
+                <li>AI INFRA @SCALE 2024</li>
+                <li>HotI 2024</li>
+                <li>Hot Chips 2024</li>
+                <li>NETWORKING @SCALE 2024</li>
+                <li>LPC 2024</li>
+                <li>2024 OCP Global Summit</li>
+                <li>2024 SONiC Workshop</li>
+                <li>KubeCon + CloudNativeCon North America</li>
+                <li>Netdev 0x18</li>
+                <li>2024 P4 Workshop, San Francisco</li>
+                <li>ONIC軽井沢（Open NetworkIng Conference Japan）</li>
+                <li>MPLS Japan 2024, 東京大学武田ホール</li>
             </ul>
         </section>
 
